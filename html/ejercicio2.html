@@ -10,7 +10,7 @@
 
 <body>
 
-    <table   border="1">
+    <table border="1">
 
         <tr>
             <td style="width: 500px;">
@@ -21,13 +21,20 @@
                     <option value="">Mrs</option>
                     <option value="">Ms</option>
                 </select><br><br>
-                First Name: <input type="text"><br><br>
-                Last Name: <input type="text"><br><br>
-                Gender: <input type="radio"> Male &nbsp;&nbsp; <input type="radio">Female <br><br>
-                Email: <input type="email"><br><br>
+                First Name: <input type="text" required><br><br>
+
+                Last Name: <input type="text" required><br><br>
+
+
+                Gender: <input type="radio" id="option1" name="gender">
+                Male &nbsp;&nbsp; <input type="radio" id="option1" name="gender">Female <br><br>
+
+
+                Email: <input type="email" required pattern="@cecar.edu.co"><br><br>
+
                 Date of birth: <input type="date"><br><br>
                 Address: <br>
-                <textarea cols="25" rows="5"></textarea><br><br>
+                <textarea cols="25" rows="5" maxlength="100"></textarea><br><br>
                 <button type="submit">Sumibt</button>
             </td>
         </tr>

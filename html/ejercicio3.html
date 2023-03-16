@@ -1,26 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo Tabla #3</title>
 </head>
-<body>
-    <table border="4">
-<tr>
-    <th colspan="2">General Admission Registratiom</th>
-</tr>
-<tr>
-    <td>
 
-        Name <input type="text" placeholder="First Name"> <input type="text" placeholder="Last Name">
-        Email <input type="email"><br>
-        Gender <input type="radio"> Male
-    </td>
-    <td>Do you have ditary registrations?</td>
-</tr>
+<body>
+    <table  border="6" style="border-color: black; ">
+        <tr>
+            <th colspan="2">General Admission Registratiom</th>
+        </tr>
+        <tr style="border-color: black;">
+            <td style="width: 400px; height:400px; vertical-align: super; border-color: black;">
+                <br>
+                Name <input type="text" placeholder="First Name"> <input type="text" placeholder="Last Name"> <br><br>
+                Email <input type="email" placeholder="sample@exampl.com"><br><br>
+                Gender <input type="radio"> Male &nbsp;&nbsp; <input type="radio"> Female <br><br>
+                Phone <input type="number"><br><br>
+                Emergeney Contact <br>
+                <input type="number"> <br><br>
+                Do you require parking? <br>
+                <input type="radio">Yes &nbsp;&nbsp;&nbsp;&nbsp; <input type="radio">No <br><br>
+                What is your room preference?<br>
+                <div>
+                    <input type="radio">Single Romm <br>
+                    <input type="radio">Shared Room <br>
+                    <input type="radio">No Room Needed
+                </div> 
+
+
+            </td>
+            <td style="width: 400px; vertical-align: super; padding: 20px; ">Do you have ditary registrations? <br>
+
+                <input type="radio">None <br>
+                <input type="radio">Vegetarian <br>
+                <input type="radio">Glutten Allergy <br>
+                <input type="radio">Lactose Allergy <br>
+                <input type="radio">Nut Allergy <br>
+                <input type="radio">Shellfish Allergy <br><br>
+
+                <label> What activities will you attend? <br>
+                    <input type="radio">Awards Gala Dinner <br>
+                    <input type="radio">Luncheon <br>
+                    <input type="radio">Town Hall <br><br>
+                </label>
+                Do you want to see the list of other attendees and their profiles
+                on the official event app <br><br>
+
+                <input type="radio">Yes &nbsp;&nbsp;&nbsp;&nbsp; <input type="radio">No
+
+
+            </td>
+
+
+
+        </tr>
 
     </table>
 </body>
+
 </html>
